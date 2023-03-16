@@ -1,0 +1,72 @@
+.chartdiv{
+    width: 80%;
+}
+
+.tabledata{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    min-width: 1000px;
+}
+#tabledata td{
+    border: 1px solid black;
+   padding: 5px;
+}
+.flexdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexdivlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 30px;
+}
+
+.autocoplate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.butonshow{
+    margin: 10px;
+}
+button {
+    background: linear-gradient(-45deg, #3f00b5, #8653dd, #277ac8, #3f00b5);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+   }
+  
+   button:hover {
+    animation: gradient 3s infinite;
+    transform: scale(1.05);
+   }
+   
+   button:active {
+    animation: gradient 5s infinite;
+    transform: scale(0.8);
+   }
+   
+   @keyframes gradient {
+    0% {
+     background-position: 0% 50%;
+    }
+   
+    50% {
+     background-position: 100% 50%;
+    }
+   
+    100% {
+     background-position: 0% 50%;
+    }
+   }
